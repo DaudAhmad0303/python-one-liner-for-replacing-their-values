@@ -1,5 +1,5 @@
 a = 5
 b = 10
-print(f"a = {a}, b = {b}")
+print(f"Before: a = {a}, b = {b}")
 a, b = b, a
-print(f"a = {a}, b = {b}")
+print(f"After: a = {a}, b = {b}")
